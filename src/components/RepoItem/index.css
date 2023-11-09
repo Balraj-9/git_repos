@@ -1,0 +1,41 @@
+/* write your css code */
+
+.repo-item {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  list-style-type: none;
+  background-color: #e3dedf;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  margin-right: 16px;
+}
+
+.repo-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.repo-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.issues-container {
+  display: flex;
+  align-items: center;
+}
+
+.stars-issuesCount {
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: 2px solid black;
+  margin-right: 20px;
+  border-radius: 2px;
+  padding: 6px;
+}
